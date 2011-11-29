@@ -16,7 +16,7 @@ This is attempt at using the audio API.  I've totally cribbed off of
 
 ## To Do
 
-- Lyrics for second verse and coda
+- Score for coda
 - Tempo adjuster
 - Ability to replay sections
 - Color-code sections of periodic table

@@ -454,7 +454,7 @@ score = [
 },
 {
   text: "vanadium",
-  elem:'Va', 
+  elem:'V', 
   voice:'F4',
   piano:['F4'],
 },
@@ -1176,8 +1176,8 @@ score = [
   piano:[],
 },
 {
-  text: "antimony",
-  elem: "Sb",
+  text: "holmium",
+  elem: "Ho",
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'C3',
@@ -1192,12 +1192,13 @@ score = [
   bass:'G3',
 },
 {
+  text: "and",
   voice:'A4',
   piano:['A4'],
 },
 {
-  text: "arsenic",
-  elem: "As",
+  text: "helium",
+  elem: "He",
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'C3',
@@ -1212,12 +1213,13 @@ score = [
   bass:'G3',
 },
 {
-  text: "aluminum",
-  elem: "Al",
+  text: "and",
   voice:'A4',
   piano:['A4'],
 },
 {
+  text: "hafnium",
+  elem: "Hf",
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'C3',
@@ -1232,12 +1234,13 @@ score = [
   bass:'G3',
 },
 {
-  text: "selenium",
-  elem: "Se",
+  text: "and",
   voice:'A4',
   piano:['A4'],
 },
 {
+  text: "erbium",
+  elem: 'Er',
   voice:'G4',
   piano:['G4'],
   bass:'C3',
@@ -1257,8 +1260,8 @@ score = [
   piano:['G3'],
 },
 {
-  text: "hydrogen",
-  elem: "H",
+  text: "phosphorus",
+  elem: "P",
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'D3',
@@ -1278,8 +1281,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "oxygen",
-  elem: "O",
+  text: "francium",
+  elem: "Fr",
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'D3',
@@ -1299,8 +1302,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "nitrogen",
-  elem: "N",
+  text: "flu-o-rine",
+  elem: "F",
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'D3',
@@ -1320,8 +1323,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "rhenium",
-  elem: "Re",
+  text: "terbium",
+  elem: "Tb",
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'D3',
@@ -1341,29 +1344,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "nickel",
-  elem: "Ni",
-  voice:'G4',
-  piano:['E4', 'G4'],
-  bass:'C3',
-},
-{
-  voice:'A4',
-  piano:['A4'],
-},
-{
-  text: "neodymium",
-  elem: "Nd",
-  voice:'G4',
-  piano:['E4', 'G4'],
-  bass:'G3',
-},
-{
-  voice:'A4',
-  piano:['A4'],
-},
-{
-  elem: "As",
+  text: "manganese",
+  elem: "Mn",
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'C3',
@@ -1378,8 +1360,29 @@ score = [
   bass:'G3',
 },
 {
-  text: "neptunium",
-  elem: "Np",
+  text: "and",
+  voice:'A4',
+  piano:['A4'],
+},
+{
+  text: "mercury",
+  elem: "Hg",
+  voice:'G4',
+  piano:['E4', 'G4'],
+  bass:'C3',
+},
+{
+  voice:'A4',
+  piano:['A4'],
+},
+{
+  voice:'G4',
+  piano:['E4', 'G4'],
+  bass:'G3',
+},
+{
+  text: "molybdenum",
+  elem: "Mo",
   voice:'A4',
   piano:['A4'],
 },
@@ -1398,8 +1401,8 @@ score = [
   bass:'G3',
 },
 {
-  text: "germanium",
-  elem: "Ge",
+  text: "magnesium",
+  elem: "Mg",
   voice:'A4',
   piano:['A4'],
 },
@@ -1418,13 +1421,12 @@ score = [
   bass:'G3',
 },
 {
-  text: "And",
+  text: "Dysprosium",
+  elem: 'Dy',
   voice:'E3',
   piano:['E3'],
 },
 {
-  text: "iron",
-  elem: 'Fe',
   voice:'D4',
   piano:['B3', 'D4'],
   bass: 'D3',
@@ -1434,17 +1436,18 @@ score = [
   piano:['E4'],
 },
 {
-  text: "americium",
-  elem:'Am',
   voice:'D4',
   piano:['B3', 'D4'],
   bass: 'G3',
 },
 {
+  text: "and",
   voice:'E4',
   piano:['E4'],
 },
 {
+  text: "scandium",
+  elem: 'Sc',
   voice:'D4',
   piano:['B3', 'D4'],
   bass: 'D3',
@@ -1459,12 +1462,13 @@ score = [
   bass: 'G3',
 },
 {
-  text: "ruthenium",
-  elem: 'Ru',
+  text: "and",
   voice:'G4',
   piano:['G4'],
 },
 {
+  text: "cerium",
+  elem: 'Ce',
   voice:'G4',
   piano:['C3', 'G4'],
   bass: 'D3',
@@ -1479,12 +1483,13 @@ score = [
   bass: 'D3',
 },
 {
-  text: "uranium",
-  elem: 'U',
+  text: "and",
   voice:'F#4',
   piano:['F#4'],
 },
 {
+  text: "cesium",
+  elem: 'Cs',
   voice:'G4',
   piano:['B3', 'G4'],
   bass: 'G2',
@@ -1499,16 +1504,20 @@ score = [
   bass: 'G2',
 },
 {
-  text: "Europium",
+  text: "And",
   elem: 'Eu',
   voice:'G4'
 },
 {
+  text: "lead",
+  elem: 'Pb',
   voice:'G4',
   piano:['F4', 'G4'],
   bass:'B2'
 },
 { 
+  text: "praseodymium",
+  elem: 'Pr',
   voice:'Ab4',
   piano:['Ab4']
 },
@@ -1518,8 +1527,6 @@ score = [
   bass: 'G2'
 },
 {
-  text: "zirconium",
-  elem: 'Zr',
   voice: 'Ab4',
   piano: ['Ab4'],
 },
@@ -1538,12 +1545,13 @@ score = [
   bass: 'G2'
 },
 {
-  text: "lutetium",
-  elem:'Lu',
+  text: "and",
   voice:'Ab4',
   piano:['Ab4']
 },
 {
+  text: "platinum",
+  elem: 'Pt',
   voice:'G4',
   piano:['F4', 'G4'],
   bass:'B2'
@@ -1558,8 +1566,8 @@ score = [
   bass:'G2'
 },
 {
-  text: "vanadium",
-  elem:'Va', 
+  text: "plutonium",
+  elem:'Pu', 
   voice:'F4',
   piano:['F4'],
 },
@@ -1578,14 +1586,12 @@ score = [
   bass:'C2'
 },
 {
-  text: "And",
+  text: "Palladium",
+  elem: 'Pd',
   voice:'C5',
   piano:['C4']
 },
 {
-  text: "lanthanum",
-  elem: 'La',
-  voice:'Bb4',
   piano:['Ab4', 'Bb4'],
   bass:'D3'
 },
@@ -1599,13 +1605,12 @@ score = [
   bass: 'Bb2'
 },
 {
-  text: "and",
+  text: "promethium",
+  elem: 'Pm',
   voice:'C5',
   piano:['C5'],
 },
 {
-  text: "osmium",
-  elem: 'Os',
   voice:'Bb4',
   piano:['Ab4', 'Bb4'],
   bass:'D3'
@@ -1620,13 +1625,12 @@ score = [
   bass:'Bb2'
 },
 {
-  text: "and",
+  text: "potassium",
+  elem: 'K',
   voice:'C5',
   piano:['C5'],
 },
 {
-  text: "astatine",
-  elem: 'At',
   voice:'Bb4',
   piano:['Ab4', 'Bb4'],
   bass:'D2'
@@ -1641,13 +1645,12 @@ score = [
   bass:'Bb2'
 },
 {
-  text: "and",
+  text: "polonium",
+  elem: 'Po',
   voice:'Ab4',
   piano:['Ab4'],
 },
 {
-  text: "radium",
-  elem:'Ra',
   voice:'G4',
   piano:['G4'],
   bass:'Eb3'
@@ -1667,25 +1670,24 @@ score = [
   piano:['Ab4']
 },
 {
-  text: "gold",
-  elem: 'Au',
+  text: "tantalum",
+  elem: 'Ta',
   voice:'G4',
   piano:['F4', 'G4'],
   bass:'B2'
 },
 { 
-  text: "and",
   voice:'Ab4',
   piano:['Ab4']
 },
 {
-  text: "protactinium",
-  elem: 'Pa',
   voice:'G4',
   piano:['F4', 'G4'],
   bass: 'G2'
 },
 {
+  text: "technetium",
+  elem: 'Tc',
   voice: 'Ab4',
   piano: ['Ab4'],
 },
@@ -1704,13 +1706,12 @@ score = [
   bass: 'G2'
 },
 {
-  text: "and",
+  text: "titanium",
+  elem: 'Ti',
   voice: 'Ab4',
   piano: ['Ab4'],
 },
 {
-  text: "indium",
-  elem: 'In',
   voice:'G4',
   piano:['F4', 'G4'],
   bass:'B2'
@@ -1725,12 +1726,12 @@ score = [
   bass: 'G2'
 },
 {
+  text: "tellurium",
+  elem: 'Te',
   voice: 'F4',
   piano: ['F4']
 },
 {
-  text: "gallium",
-  elem: 'Ga',
   voice: 'Eb4',
   piano:['Eb4'],
   bass: 'C3'
@@ -1753,8 +1754,8 @@ score = [
 },
 
 {
-  text: "iodine",
-  elem:'I',
+  text: "cadmium",
+  elem: 'Cd',
   voice:'C4',
   piano:['G3', 'C4'],
   bass:'Ab3'
@@ -1774,8 +1775,8 @@ score = [
   piano:['B3']
 },
 {
-  text: "thorium",
-  elem:'Th',
+  text: "calcium",
+  elem: 'Ca',
   voice:'C4',
   piano:['G3', 'C4'],
   bass:'Ab3'
@@ -1795,8 +1796,8 @@ score = [
   piano:['B3']
 },
 {
-  text: "thulium",
-  elem: 'Tm',
+  text: "chromium",
+  elem: 'Cr',
   voice:'C4',
   piano:['G3', 'C4'],
   bass:'Ab3'
@@ -1816,8 +1817,8 @@ score = [
   piano:['C4']
 },
 {
-  text: "thalium.",
-  elem: 'Tl',
+  text: "curium.",
+  elem: 'Cm',
   voice: 'G4',
   piano:['B3', 'G4'],
   bass:'G2'
@@ -1892,8 +1893,8 @@ score = [
   piano: ['D4', 'G4']
 },
 {
-  text: "yttrium",
-  elem: "Y",
+  text: "sulfur",
+  elem: 'S',
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'C3',
@@ -1903,33 +1904,13 @@ score = [
   piano:['A4'],
 },
 {
+  text: "californium",
+  elem: 'Cf',
   voice:'G4',
   piano:['E4', 'G4'],
   bass:'G3',
 },
 {
-  text: "ytterbium",
-  elem: "Yb",
-  voice:'A4',
-  piano:['A4'],
-},
-{
-  voice:'G4',
-  piano:['E4', 'G4'],
-  bass:'C3',
-},
-{
-  voice:'A4',
-  piano:['A4'],
-},
-{
-  voice:'G4',
-  piano:['E4', 'G4'],
-  bass:'G3',
-},
-{
-  text: "actinium",
-  elem: "Ac",
   voice:'A4',
   piano:['A4'],
 },
@@ -1948,8 +1929,29 @@ score = [
   bass:'G3',
 },
 {
-  text: "rubidium",
-  elem: "Rb",
+  text: "and",
+  voice:'A4',
+  piano:['A4'],
+},
+{
+  text: "fermium", 
+  elem: 'Fm',
+  voice:'G4',
+  piano:['E4', 'G4'],
+  bass:'C3',
+},
+{
+  voice:'A4',
+  piano:['A4'],
+},
+{
+  voice:'G4',
+  piano:['E4', 'G4'],
+  bass:'G3',
+},
+{
+  text: "berkelium",
+  elem: 'Bk',
   voice:'A4',
   piano:['A4'],
 },
@@ -1968,13 +1970,11 @@ score = [
   bass:'G3',
 },
 {
-  text: "And",
+  text: "And also",
   voice:'G3',
   piano:['G3'],
 },
 {
-  text: "boron",
-  elem: "B",
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'D3',
@@ -1984,8 +1984,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "gadolinium",
-  elem: "Gd",
+  text: "mendelevium",
+  elem: 'Md',
   voice:'F4',
   piano:['B3', 'F4'],
   bass: 'G3',
@@ -2009,8 +2009,8 @@ score = [
   bass: 'D3',
 },
 {
-  text: "niobium",
-  elem: 'Nb',
+  text: "einsteinium",
+  elem: 'Es',
   voice:'G4',
   piano:['G4'],
 },
@@ -2029,8 +2029,8 @@ score = [
   bass: 'G3',
 },
 {
-  text: "iridium",
-  elem: 'Ir',
+  text: "nobelium",
+  elem: 'No',
   voice:'G4',
   piano:['G4'],
 },
@@ -2054,8 +2054,8 @@ score = [
   piano:['G4'],
 },
 {
-  text: "strontium",
-  elem: 'Sr',
+  text: "argon",
+  elem: 'Ar',
   voice: 'G4',
   piano: ['E4', 'G4'],
   bass: 'C3'
@@ -2065,18 +2065,19 @@ score = [
   piano: ['A4']
 },
 {
+  text: "krypton",
+  elem: 'Kr',
   voice: 'B4',
   piano: ['B4'],
   bass: 'G3'
 },
 {
-  text: "and",
   voice: 'C5',
   piano: ['C5']
 },
 {
-  text: "silicon",
-  elem: 'Si',
+  text: "neon",
+  elem: 'Ne',
   voice: 'B4',
   piano: ['F4', 'B4'],
   bass: 'D3'
@@ -2086,17 +2087,18 @@ score = [
   piano: ['A4']
 },
 {
+  text: "radon", 
+  elem: 'Rn',
   voice: 'G4',
   piano: ['G4'],
   bass: 'G3'
 },
 {
-  text: "and",
   voice: 'F#4',
 },
 {
-  text: "silver",
-  elem: 'Ag',
+  text: "xenon",
+  elem: 'Xe',
   voice: 'G4',
   piano: ['E4', 'G4'],
   bass: 'C3'
@@ -2106,18 +2108,20 @@ score = [
   piano: ['A4']
 },
 {
-  text: "and",
+  text: "zinc",
+  elem: 'Zn',
   voice: 'B4',
   piano: ['B4'],
   bass: 'G3'
 },
 {
-  text: "samarium",
-  elem: 'Sm',
+  text: "and",
   voice: 'C5',
   piano: ['C5']
 },
 {
+  text: "rhodium",
+  elem: 'Rh',
   voice: 'B4',
   piano: ['F4', 'B4'],
   bass: 'D3'
@@ -2137,8 +2141,8 @@ score = [
   piano: ['F#4']
 },
 {
-  text: "bismuth",
-  elem: 'Bi',
+  text: "chlorine",
+  elem: 'Cl',
   voice: 'G4',
   piano: ['E4', 'G4'],
   bass: 'C3'
@@ -2148,8 +2152,8 @@ score = [
   piano: ['A4']
 },
 {
-  text: "bromine",
-  elem: 'Br',
+  text: "carbon",
+  elem: 'C',
   voice: 'B4',
   piano: ['B4'],
   bass: 'G3'
@@ -2159,8 +2163,8 @@ score = [
   piano: ['C5']
 },
 {
-  text: "lithium",
-  elem: 'Li',
+  text: "cobalt",
+  elem: 'Co',
   voice: 'B4',
   piano: ['B4'],
   bass: 'F3'
@@ -2170,17 +2174,19 @@ score = [
   piano: ['A4']
 },
 {
+  text: "copper",
+  elem: 'Cu',
   voice: 'G4',
   piano: ['G4'],
   bass: 'D3'
 },
 {
-  text: "beryllium",
-  elem: 'Be',
   voice: 'F4',
   piano: ['F4'],
 },
 { 
+  text: "tungsten",
+  elem: 'W',
   voice: 'E4',
   piano: ['C4', 'E4'],
   bass: 'G2'
@@ -2190,6 +2196,8 @@ score = [
   piano: ['G4'],
 },
 { 
+  text: "tin", 
+  elem: 'Sn',
   voice: 'D4',
   piano: ['B3', 'D4'],
   bass: 'G2'
@@ -2200,8 +2208,8 @@ score = [
   piano: ['G4']
 },
 {
-  text: "barium.",
-  elem: 'Ba',
+  text: "sodium.",
+  elem: 'Na',
   voice: 'E4',
   piano: ['C4', 'E4'],
   bass: 'C2'
