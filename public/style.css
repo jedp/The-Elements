@@ -59,7 +59,7 @@ body {
 
 
 .number { 
-  color: #aaaaaa;
+  color: #666666;
 }
 
 h2 {
@@ -89,9 +89,9 @@ td.content {
   min-width: 50px;
   min-height: 50px;
   padding: 2px;
-  border: 2px solid gray;
+  border: 2px solid #aaaaaa;
   border-radius: 5px;
-  background-color: #eeeeee;
+  background-color: #cccccc;
 }
 
 .name {
