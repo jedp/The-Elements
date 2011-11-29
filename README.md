@@ -1,3 +1,17 @@
-The Elements, by Tom Lehrer
+# The Elements
 
-Using audiolib.js and music.js to help the periodic table play along with him.
+The song by Tom Lehrer, with the periodic table humming along.  
+
+My 7-year-old daughter has become obsessed with this song.  While she was at
+school and I was home sick, I put this together to help us memorize the
+complete lyrics.
+
+This is attempt at using the audio API.  I've totally cribbed off of
+[supersynth](https://github.com/davidgovea/supersynth).
+
+## Dependencies
+
+- [audiolib.js](https://github.com/jussi-kalliokoski/audiolib.js/)
+- [music.js](https://github.com/GregJ/music.js)
+
+
