@@ -14,4 +14,11 @@ This is attempt at using the audio API.  I've totally cribbed off of
 - [audiolib.js](https://github.com/jussi-kalliokoski/audiolib.js/)
 - [music.js](https://github.com/GregJ/music.js)
 
+## To Do
+
+- Lyrics for second verse and coda
+- Tempo adjuster
+- Ability to replay sections
+- Color-code sections of periodic table
+- Disco light dancing during interludes
 
