@@ -1,0 +1,14 @@
+{"name": "the-elements",
+ "description": "Periodic table plays along with Tom Lehrer",
+ "authors": [
+  "Tom Lehrer", 
+  "Sir Arthur Sullivan",
+  "Jed Parsons <jed@jedparsons.com>"
+  ],
+
+ "version": "0.0.1",
+
+ "dependencies": {
+  "node-static": ""
+ }
+}

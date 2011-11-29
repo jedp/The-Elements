@@ -1,0 +1,226 @@
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='/style.css'></link>
+  </head>
+  <body>
+    <script src="/lib/underscore/underscore-min.js" type="text/javascript"></script>
+    <script src="/lib/music/music.js" type="text/javascript"></script>
+    <script src="/lib/audiolib/lib/audiolib.min.js" type="text/javascript"></script>
+    <script src="/score.js" type="text/javascript"></script>
+    <script src="/main.js" type="text/javascript"></script>
+
+    <!--
+
+                    THE ELEMENTS
+
+                 Words by Tom Lehrer
+             Music by Sir Arthur Sullivan
+
+
+    There's antimony, arsenic, aluminum, selenium,
+    And hydrogen and oxygen and nitrogen and rhenium,
+    And nickel, neodymium, neptunium, germanium,
+    And iron, americium, ruthenium, uranium,
+    Europium, zirconium, letitium, vanadium,
+    And lanthanum and osmium and astatine and radium,
+    And gold and protactinium and indium and gallium,
+    And iodine and thorium and thulium and thallium.
+
+    There's yttrium, ytterbium, actinium, rubidium, 
+    And boron, gadolinium, niobium, iridium,
+    And strontium and silicon and silver and samarium,
+    And bismuth, bromine, lithium, beryllium, and barium.
+
+    There's holmium and helium and hafnium and erbium,
+    And phosphorus and francium and flu-o-rine and terbium,
+    And manganese and mercury, molybdenum, magnesium,
+    Dysprosium and scandium and cerium and cesium,
+    And lead, praseodymium, and platinum, plutonium,
+    Paladium, promethium, potassium, polonium, 
+    And tantalum, technetium, titanium, tellurium, 
+    And cadmium and calcium and chromium and curium.
+
+    There's sulfur californium and fermium, berkelium,
+    And also mendelevium, einsteinium, nobelium,
+    And argon, krypton, neon, radon, xenon, zinc and rhodium,
+    And chlorine, carbon, cobalt, copper, tungsten, tin and sodium.
+
+    These are the only ones of which the news has come to Ha'vard,
+    And there may be many others but they haven't been discavard.
+
+    -->
+
+    <table>
+      <!-- 1 -->
+      <tr> 
+        <td class='content' id='H'><div class='number'>1</div><h2>H</h2><div class='name'>Hydrogen</div><div class='weight'></div></td>
+        <td colspan='16'></td>
+        <td class='content' id='He'><div class='number'>2</div><h2>He</h2><div class='name'>Helium</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 2 -->
+      <tr> 
+        <td class='content' id='Li'><div class='number'>3</div><h2>Li</h2><div class='name'>Lithium</div><div class='weight'></div></td>
+        <td class='content' id='Be'><div class='number'>4</div><h2>Be</h2><div class='name'>Beryllium</div><div class='weight'></div></td>
+        <td colspan='10'><h2 id='text'></h2></td>
+        <td class='content' id='B'><div class='number'>5</div><h2>B</h2><div class='name'>Boron</div><div class='weight'></div></td>
+        <td class='content' id='C'><div class='number'>6</div><h2>C</h2><div class='name'>Carbon</div><div class='weight'></div></td>
+        <td class='content' id='N'><div class='number'>7</div><h2>N</h2><div class='name'>Nitrogen</div><div class='weight'></div></td>
+        <td class='content' id='O'><div class='number'>8</div><h2>O</h2><div class='name'>Oxygen</div><div class='weight'></div></td>
+        <td class='content' id='F'><div class='number'>9</div><h2>F</h2><div class='name'>Fluorine</div><div class='weight'></div></td>
+        <td class='content' id='Ne'><div class='number'>10</div><h2>Ne</h2><div class='name'>Neon</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 3 -->
+      <tr> 
+        <td class='content' id='Ma'><div class='number'>11</div><h2>Na</h2><div class='name'>Sodium</div><div class='weight'></div></td>
+        <td class='content' id='Mg'><div class='number'>12</div><h2>Mg</h2><div class='name'>Magnesium</div><div class='weight'></div></td>
+        <td colspan='10'></td>
+        <td class='content' id='Al'><div class='number'>13</div><h2>Al</h2><div class='name'>Aluminum</div><div class='weight'></div></td>
+        <td class='content' id='Si'><div class='number'>14</div><h2>Si</h2><div class='name'>Silicon</div><div class='weight'></div></td>
+        <td class='content' id='P'><div class='number'>15</div><h2>P</h2><div class='name'>Phosphorus</div><div class='weight'></div></td>
+        <td class='content' id='S'><div class='number'>16</div><h2>S</h2><div class='name'>Sulfur</div><div class='weight'></div></td>
+        <td class='content' id='Cl'><div class='number'>17</div><h2>Cl</h2><div class='name'>Chlorine</div><div class='weight'></div></td>
+        <td class='content' id='Ar'><div class='number'>18</div><h2>Ar</h2><div class='name'>Argon</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 4 -->
+      <tr> 
+        <td class='content' id='K'><div class='number'>19</div><h2>K</h2><div class='name'>Potassium</div><div class='weight'></div></td>
+        <td class='content' id='Ca'><div class='number'>20</div><h2>Ca</h2><div class='name'>Calcium</div><div class='weight'></div></td>
+        <td class='content' id='Sc'><div class='number'>21</div><h2>Sc</h2><div class='name'>Scandium</div><div class='weight'></div></td>
+        <td class='content' id='Ti'><div class='number'>22</div><h2>Ti</h2><div class='name'>Titanium</div><div class='weight'></div></td>
+        <td class='content' id='V'><div class='number'>23</div><h2>V</h2><div class='name'>Vanadium</div><div class='weight'></div></td>
+        <td class='content' id='Cr'><div class='number'>24</div><h2>Cr</h2><div class='name'>Chromium</div><div class='weight'></div></td>
+        <td class='content' id='Mn'><div class='number'>25</div><h2>Mn</h2><div class='name'>Manganese</div><div class='weight'></div></td>
+        <td class='content' id='Fe'><div class='number'>26</div><h2>Fe</h2><div class='name'>Iron</div><div class='weight'></div></td>
+        <td class='content' id='Co'><div class='number'>27</div><h2>Co</h2><div class='name'>Cobalt</div><div class='weight'></div></td>
+        <td class='content' id='Ni'><div class='number'>28</div><h2>Ni</h2><div class='name'>Nickel</div><div class='weight'></div></td>
+        <td class='content' id='Cu'><div class='number'>29</div><h2>Cu</h2><div class='name'>Copper</div><div class='weight'></div></td>
+        <td class='content' id='Zn'><div class='number'>30</div><h2>Zn</h2><div class='name'>Zinc</div><div class='weight'></div></td>
+        <td class='content' id='Ga'><div class='number'>31</div><h2>Ga</h2><div class='name'>Gallium</div><div class='weight'></div></td>
+        <td class='content' id='Ge'><div class='number'>32</div><h2>Ge</h2><div class='name'>Germanium</div><div class='weight'></div></td>
+        <td class='content' id='As'><div class='number'>33</div><h2>As</h2><div class='name'>Arsenic</div><div class='weight'></div></td>
+        <td class='content' id='Se'><div class='number'>34</div><h2>Se</h2><div class='name'>Selenium</div><div class='weight'></div></td>
+        <td class='content' id='Br'><div class='number'>35</div><h2>Br</h2><div class='name'>Bromine</div><div class='weight'></div></td>
+        <td class='content' id='Kr'><div class='number'>36</div><h2>Kr</h2><div class='name'>Krypton</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 5 -->
+      <tr> 
+        <td class='content' id='Rb'><div class='number'>37</div><h2>Rb</h2><div class='name'>Rubidium</div><div class='weight'></div></td>
+        <td class='content' id='Sr'><div class='number'>38</div><h2>Sr</h2><div class='name'>Strontium</div><div class='weight'></div></td>
+        <td class='content' id='Y'><div class='number'>39</div><h2>Y</h2><div class='name'>Yttrium</div><div class='weight'></div></td>
+        <td class='content' id='Zr'><div class='number'>40</div><h2>Zr</h2><div class='name'>Zirconium</div><div class='weight'></div></td>
+        <td class='content' id='Nb'><div class='number'>41</div><h2>Nb</h2><div class='name'>Niobium</div><div class='weight'></div></td>
+        <td class='content' id='Mo'><div class='number'>42</div><h2>Mo</h2><div class='name'>Molybdenum</div><div class='weight'></div></td>
+        <td class='content' id='Rc'><div class='number'>43</div><h2>Tc</h2><div class='name'>Technetium</div><div class='weight'></div></td>
+        <td class='content' id='Ru'><div class='number'>44</div><h2>Ru</h2><div class='name'>Ruthenium</div><div class='weight'></div></td>
+        <td class='content' id='Rh'><div class='number'>45</div><h2>Rh</h2><div class='name'>Rhodium</div><div class='weight'></div></td>
+        <td class='content' id='Pd'><div class='number'>46</div><h2>Pd</h2><div class='name'>Palladium</div><div class='weight'></div></td>
+        <td class='content' id='Ag'><div class='number'>47</div><h2>Ag</h2><div class='name'>Silver</div><div class='weight'></div></td>
+        <td class='content' id='Cd'><div class='number'>48</div><h2>Cd</h2><div class='name'>Cadmium</div><div class='weight'></div></td>
+        <td class='content' id='In'><div class='number'>49</div><h2>In</h2><div class='name'>Indium</div><div class='weight'></div></td>
+        <td class='content' id='Sn'><div class='number'>50</div><h2>Sn</h2><div class='name'>Tin</div><div class='weight'></div></td>
+        <td class='content' id='Sb'><div class='number'>51</div><h2>Sb</h2><div class='name'>Antimony</div><div class='weight'></div></td>
+        <td class='content' id='Te'><div class='number'>52</div><h2>Te</h2><div class='name'>Tellurium</div><div class='weight'></div></td>
+        <td class='content' id='I'><div class='number'>53</div><h2>I</h2><div class='name'>Iodine</div><div class='weight'></div></td>
+        <td class='content' id='Xe'><div class='number'>54</div><h2>Xe</h2><div class='name'>Xenon</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 6 -->
+      <tr> 
+        <td class='content' id='Cs'><div class='number'>55</div><h2>Cs</h2><div class='name'>Cesium</div><div class='weight'></div></td>
+        <td class='content' id='Ba'><div class='number'>56</div><h2>Ba</h2><div class='name'>Barium</div><div class='weight'></div></td>
+        <td><div class='number'>&nbsp;</div><h3>57&#x2013;71</h3><div class='name'></div><div class='weight'></div></td>
+        <td class='content' id='Hf'><div class='number'>72</div><h2>Hf</h2><div class='name'>Hafnium</div><div class='weight'></div></td>
+        <td class='content' id='Ta'><div class='number'>73</div><h2>Ta</h2><div class='name'>Tantalum</div><div class='weight'></div></td>
+        <td class='content' id='W'><div class='number'>74</div><h2>W</h2><div class='name'>Tungsten</div><div class='weight'></div></td>
+        <td class='content' id='Re'><div class='number'>75</div><h2>Re</h2><div class='name'>Rhenium</div><div class='weight'></div></td>
+        <td class='content' id='Os'><div class='number'>76</div><h2>Os</h2><div class='name'>Osmium</div><div class='weight'></div></td>
+        <td class='content' id='Ir'><div class='number'>77</div><h2>Ir</h2><div class='name'>Iridium</div><div class='weight'></div></td>
+        <td class='content' id='Pt'><div class='number'>78</div><h2>Pt</h2><div class='name'>Platinum</div><div class='weight'></div></td>
+        <td class='content' id='Au'><div class='number'>79</div><h2>Au</h2><div class='name'>Gold</div><div class='weight'></div></td>
+        <td class='content' id='Hg'><div class='number'>80</div><h2>Hg</h2><div class='name'>Mercury</div><div class='weight'></div></td>
+        <td class='content' id='Tl'><div class='number'>81</div><h2>Tl</h2><div class='name'>Thallium</div><div class='weight'></div></td>
+        <td class='content' id='Pb'><div class='number'>82</div><h2>Pb</h2><div class='name'>Lead</div><div class='weight'></div></td>
+        <td class='content' id='Bi'><div class='number'>83</div><h2>Bi</h2><div class='name'>Bismuth</div><div class='weight'></div></td>
+        <td class='content' id='Po'><div class='number'>84</div><h2>Po</h2><div class='name'>Polonium</div><div class='weight'></div></td>
+        <td class='content' id='At'><div class='number'>85</div><h2>At</h2><div class='name'>Astatine</div><div class='weight'></div></td>
+        <td class='content' id='Rn'><div class='number'>86</div><h2>Rn</h2><div class='name'>Radon</div><div class='weight'></div></td>
+      </tr>
+
+      <!-- 7 -->
+      <tr> 
+        <td class='content' id='Fr'><div class='number'>87</div><h2>Fr</h2><div class='name'>Francium</div><div class='weight'></div></td>
+        <td class='content' id='Ra'><div class='number'>88</div><h2>Ra</h2><div class='name'>Radium</div><div class='weight'></div></td>
+        <td><div class='number'>&nbsp;</div><h3>89&#x2013;03</h3><div class='name'></div><div class='weight'></div></td>
+        <td class='content' id='Rf'><div class='number'>104</div><h2>Rf</h2><div class='name'>Rutherfordium</div><div class='weight'></div></td>
+        <td class='content' id='Db'><div class='number'>105</div><h2>Db</h2><div class='name'>Dubnium</div><div class='weight'></div></td>
+        <td class='content' id='Sg'><div class='number'>106</div><h2>Sg</h2><div class='name'>Seaborgium</div><div class='weight'></div></td>
+        <td class='content' id='Bh'><div class='number'>107</div><h2>Bh</h2><div class='name'>Bohrium</div><div class='weight'></div></td>
+        <td class='content' id='Hs'><div class='number'>108</div><h2>Hs</h2><div class='name'>Hassium</div><div class='weight'></div></td>
+        <td class='content' id='Mt'><div class='number'>109</div><h2>Mt</h2><div class='name'>Meitnerium</div><div class='weight'></div></td>
+        <td class='content' id='ds'><div class='number'>110</div><h2>Ds</h2><div class='name'>Darnstadium</div><div class='weight'></div></td>
+        <td class='content' id='Rg'><div class='number'>111</div><h2>Rg</h2><div class='name'>Roentgerium</div><div class='weight'></div></td>
+        <td class='content' id='Cn'><div class='number'>112</div><h2>Cn</h2><div class='name'>Copernicium</div><div class='weight'></div></td>
+        <td class='content' id='Uut'><div class='number'>113</div><h2>Uut</h2><div class='name'>Ununtrium</div><div class='weight'></div></td>
+        <td class='content' id='Uuq'><div class='number'>114</div><h2>Uuq</h2><div class='name'>Ununquadium</div><div class='weight'></div></td>
+        <td class='content' id='Uup'><div class='number'>115</div><h2>Uup</h2><div class='name'>Ununpentium</div><div class='weight'></div></td>
+        <td class='content' id='Uuh'><div class='number'>116</div><h2>Uuh</h2><div class='name'>Ununhexium</div><div class='weight'></div></td>
+        <td class='content' id='Uus'><div class='number'>117</div><h2>Uus</h2><div class='name'>Ununseptium</div><div class='weight'></div></td>
+        <td class='content' id='Uuo'><div class='number'>118</div><h2>Uuo</h2><div class='name'>Ununoctium</div><div class='weight'></div></td>
+      </tr>
+
+      <tr class='empty'><td colspan='18'>&nbsp;</td></tr>
+      
+      <!-- 8 -->
+      <tr>
+        <td colspan='2'></td>
+        <td class='content' id='La'><div class='number'>57</div><h2>La</h2><div class='name'>Lanthanum</div><div class='weight'></div></td>
+        <td class='content' id='Ce'><div class='number'>58</div><h2>Ce</h2><div class='name'>Cerium</div><div class='weight'></div></td>
+        <td class='content' id='Pr'><div class='number'>59</div><h2>Pr</h2><div class='name'>Praseodymium</div><div class='weight'></div></td>
+        <td class='content' id='Nd'><div class='number'>60</div><h2>Nd</h2><div class='name'>Neodymium</div><div class='weight'></div></td>
+        <td class='content' id='Pm'><div class='number'>61</div><h2>Pm</h2><div class='name'>Promethium</div><div class='weight'></div></td>
+        <td class='content' id='Sm'><div class='number'>62</div><h2>Sm</h2><div class='name'>Samarium</div><div class='weight'></div></td>
+        <td class='content' id='Eu'><div class='number'>63</div><h2>Eu</h2><div class='name'>Europium</div><div class='weight'></div></td>
+        <td class='content' id='Gd'><div class='number'>64</div><h2>Gd</h2><div class='name'>Gadolinium</div><div class='weight'></div></td>
+        <td class='content' id='Td'><div class='number'>65</div><h2>Tb</h2><div class='name'>Terbium</div><div class='weight'></div></td>
+        <td class='content' id='Dy'><div class='number'>66</div><h2>Dy</h2><div class='name'>Dysprosium</div><div class='weight'></div></td>
+        <td class='content' id='Ho'><div class='number'>67</div><h2>Ho</h2><div class='name'>Holmium</div><div class='weight'></div></td>
+        <td class='content' id='Er'><div class='number'>68</div><h2>Er</h2><div class='name'>Erbium</div><div class='weight'></div></td>
+        <td class='content' id='Tm'><div class='number'>69</div><h2>Tm</h2><div class='name'>Thulium</div><div class='weight'></div></td>
+        <td class='content' id='Yb'><div class='number'>70</div><h2>Yb</h2><div class='name'>Ytterbium</div><div class='weight'></div></td>
+        <td class='content' id='Lu'><div class='number'>71</div><h2>Lu</h2><div class='name'>Lutetium</div><div class='weight'></div></td>
+        <td></td>
+      </tr>
+
+
+
+      <!-- 9 -->
+      <tr>
+        <td colspan='2'></td>
+        <td class='content' id='Ac'><div class='number'>89</div><h2>Ac</h2><div class='name'>Actinium</div><div class='weight'></div></td>
+        <td class='content' id='Th'><div class='number'>90</div><h2>Th</h2><div class='name'>Thorium</div><div class='weight'></div></td>
+        <td class='content' id='Pa'><div class='number'>91</div><h2>Pa</h2><div class='name'>Protactinium</div><div class='weight'></div></td>
+        <td class='content' id='U'><div class='number'>92</div><h2>U</h2><div class='name'>Uranium</div><div class='weight'></div></td>
+        <td class='content' id='Np'><div class='number'>93</div><h2>Np</h2><div class='name'>Neptunium</div><div class='weight'></div></td>
+        <td class='content' id='Pu'><div class='number'>94</div><h2>Pu</h2><div class='name'>Plutonium</div><div class='weight'></div></td>
+        <td class='content' id='Am'><div class='number'>95</div><h2>Am</h2><div class='name'>Americium</div><div class='weight'></div></td>
+        <td class='content' id='Cm'><div class='number'>96</div><h2>Cm</h2><div class='name'>Curium</div><div class='weight'></div></td>
+        <td class='content' id='Bk'><div class='number'>97</div><h2>Bk</h2><div class='name'>Berkelium</div><div class='weight'></div></td>
+        <td class='content' id='Cf'><div class='number'>98</div><h2>Cf</h2><div class='name'>Californium</div><div class='weight'></div></td>
+        <td class='content' id='Es'><div class='number'>99</div><h2>Es</h2><div class='name'>Einsteinium</div><div class='weight'></div></td>
+        <td class='content' id='Fm'><div class='number'>100</div><h2>Fm</h2><div class='name'>Fermium</div><div class='weight'></div></td>
+        <td class='content' id='Md'><div class='number'>101</div><h2>Md</h2><div class='name'>Mendelevium</div><div class='weight'></div></td>
+        <td class='content' id='No'><div class='number'>102</div><h2>No</h2><div class='name'>Nobelium</div><div class='weight'></div></td>
+        <td class='content' id='Lr'><div class='number'>103</div><h2>Lr</h2><div class='name'>Lawrencium</div><div class='weight'></div></td>
+        <td></td>
+      </tr>
+
+
+    </table>
+
+  </body>
+</html>
+

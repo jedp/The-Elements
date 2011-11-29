@@ -1,0 +1,9 @@
+[submodule "public/lib/underscore"]
+	path = public/lib/underscore
+	url = git://github.com/documentcloud/underscore.git
+[submodule "public/lib/audiolib"]
+	path = public/lib/audiolib
+	url = git://github.com/jussi-kalliokoski/audiolib.js.git
+[submodule "public/lib/music"]
+	path = public/lib/music
+	url = git://github.com/GregJ/music.js.git

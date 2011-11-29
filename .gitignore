@@ -1,0 +1,9 @@
+.gitconfig
+
+node_modules
+
+# turd files
+.DS_Store
+*.swp
+*.swo
+*.un~
