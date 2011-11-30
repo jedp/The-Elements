@@ -23,7 +23,22 @@ You can control it with:
 - Down arrow: slower
 - Space: pause or play
 
+## To Use
 
+The auido works in Firefox and Chrome (if you have audio extensions enabled).
+
+Using [Node.JS](http://nodejs.org) and [NPM](http://npmjs.org), you can:
+
+- `git clone` the project
+- `cd The-Elements`
+- `npm install` (this one time only)
+- `node server.js`
+
+Now go to `localhost:3000` in your browser.  
+
+Node.JS isn't necessary.  You just need to serve the contents of `public` as a
+root directory somehow.  (If you prefer to do this with Apache or nginx, please
+send me a pull request with your config!)
 
 ## Dependencies
 
