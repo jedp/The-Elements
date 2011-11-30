@@ -9,7 +9,7 @@ complete lyrics.
 This is attempt at using the audio API.  I've totally cribbed off of
 [supersynth](https://github.com/davidgovea/supersynth).
 
-  http://www.flickr.com/photos/desitinschild/6429355447/in/photostream
+![WhyIsThisSoHard](http://www.flickr.com/photos/desitinschild/6429355447/in/photostream)
 
 
 
