@@ -32,9 +32,6 @@ You can control it with:
 
 ## To Do
 
-- Score for coda
-- Tempo adjuster
-- Ability to replay sections
 - Color-code sections of periodic table
 - Disco light dancing during interludes
 
