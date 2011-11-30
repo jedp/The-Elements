@@ -9,8 +9,19 @@ complete lyrics.
 This is attempt at using the audio API.  I've totally cribbed off of
 [supersynth](https://github.com/davidgovea/supersynth).
 
+Here's a screenshot of the program in action:
+
 ![Screenshot](/jedp/The-Elements/raw/master/img/elements.png)
 
+## Controls
+
+You can control it with:
+
+- Left arrow: back a bit
+- Right arrow: forward a bit
+- Up arrow: faster
+- Down arrow: slower
+- Space: pause or play
 
 
 
