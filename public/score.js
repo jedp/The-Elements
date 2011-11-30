@@ -2229,12 +2229,213 @@ score = [
 {
   piano: ['C4'],
 },
-{
-  dur: 1/8
-}
 
 /* Coda */
-
-
+{
+  text: "These are",
+  voice: 'G4'
+},
+{
+  voice: 'G4',
+  piano: ['E4', 'G4'],
+  bass: 'C3'
+},
+{
+  text: "the only ones",
+  piano: ['A4'],
+  voice: 'A4'
+},
+{
+  voice: 'B4',
+  piano: ['B4'],
+  bass:'G3'
+},
+{ 
+  voice: 'C5',
+  piano: ['C5']
+},
+{
+  voice: 'B4',
+  piano: ['F4', 'B4'],
+  bass: 'D3'
+},
+{
+  text: "of which",
+  voice: 'A4',
+  piano:['A4']
+},
+{
+  voice: 'G4',
+  piano: ['G4'],
+  bass: 'G3'
+},
+{ 
+  text: "the news",
+  voice: 'F#4',
+  piano: ['F#4']
+},
+{
+  voice: 'G4',
+  piano: ['E4', 'G4'],
+  bass: 'C3'
+},
+{
+  text: "has come",
+  voice: 'A4',
+  piano: ['A4']
+},
+{
+  voice: 'B4',
+  piano: ['B4'],
+  bass:'G3',
+  dur: 3/16
+},
+{
+  text: "to Ha'vard",
+  piano: ['C5'],
+  voice: 'C5',
+  dur: 1/4
+},
+{
+  voice: 'B4',
+  piano: ['F4', 'B4'],
+  bass: 'D3',
+  dur: 3/8
+},
+{ 
+  voice: 'A4',
+  piano: ['F4', 'A4'],
+  dur: 1/2
+},
+{ 
+  dur: 1/4
+},
+{ 
+  text: "And there",
+  piano: ['G4'],
+  voice: 'G4'
+},
+{
+  voice: 'F#4',
+  piano: ['F#4']
+},
+{
+  text: "may be",
+  voice: 'G4',
+  piano: ['E4', 'G4'],
+  bass: 'C3'
+},
+{ 
+  voice: 'A4',
+  piano: ['A4']
+},
+{ 
+  text: "many others",
+  voice: 'B4',
+  piano: ['B4'],
+  bass: 'G3'
+},
+{ 
+  voice: 'C5',
+  piano: ['C5']
+},
+{
+  voice: 'B4',
+  piano: ['B4'],
+  bass: 'F3'
+},
+{ 
+  voice: 'A4', 
+  piano: ['A4']
+},
+{ 
+  text: "but they",
+  voice: 'G4',
+  piano: ['G4'],
+  bass: 'D3'
+},
+{
+  voice: 'F4',
+  piano: ['F4']
+},
+{ 
+  text: "haven't",
+  voice:'E4',
+  piano: ['C4', 'E4'],
+  bass: 'G2'
+},
+{
+  voice:'G4', 
+  piano: ['G4']
+},
+{
+  text: "been dis-ca-vard.",
+  voice:'D4',
+  piano: ['B3', 'D4'],
+  bass:'G2',
+  dur: 3/16
+},
+{
+  voice:'G4',
+  piano: ['G4'],
+  dur: 1/4
+},
+{
+  voice:'E4',
+  piano: ['C4', 'E4'],
+  bass: 'C2',
+  dur: 5/8
+},
+{
+  voice:'C4',
+  piano: ['C4'],
+  dur: 1
+},
+{
+  piano: ['C4'],
+  dur: 1/4
+},
+{ 
+  piano: ['G3'],
+  bass: 'G2',
+  dur: (1/8)/3
+},
+{ 
+  piano: ['F#3'],
+  bass: 'F#2',
+  dur: (1/8)/3
+},
+{ 
+  piano: ['G3'],
+  bass: 'G2',
+  dur: (1/8)/3
+},
+{ 
+  piano: ['Ab3'],
+  bass: 'Ab2',
+  dur: 1/4
+},
+{ 
+  piano: ['G3'],
+  bass: 'G2',
+  dur: 1/4
+},
+{
+  dur: 1/4
+},
+{
+  piano: ['B3', 'D4', 'F4', 'G4'],
+  bass: 'G2',
+  dur: 1/4
+},
+{
+  piano: ['C4', 'E4', 'G4', 'C5'],
+  bass: 'C2',
+  dur: 1/4
+},
+{
+  text: "",
+  dur: 1/4
+}
 
 ];
